@@ -1,0 +1,38 @@
+/* El selector universal*/
+/* 1. PRIMERO declaras la fuente - FUERA del selector * */
+@font-face {
+  font-family: "poppinslocal";
+  src: url("../fonts/Poppins/Poppins-regular .ttf") format("truetype");
+  font-weight: normal
+  font-style: normal
+  font-display: swap;
+} 
+
+/* 2. LUEGO aplicad a TODO con el selector universal */
+*{
+ font-family: "poppinsLocal"; 
+ margin: 0; /* En celular ponemos los margenes en 0 para asi poder editar a nuestro gusto*/
+ padding:0; /* En celular ponemos los rellenos en 0 para asi poder editar a nuestro gusto*/
+ box-sizing: border-box; /*El comportamiento por defecto de los navegadores*/
+
+}
+body{
+    background-color: #000000; /* color del fondo BLANCO*/
+
+}
+
+header{
+    background-color:#ffff; /*Color del fondo negro
+    height:55px;/* Altura de la barra de MENU*/
+    display:flex;
+    padding: 0 16px;
+
+}   
+
+/* class="img-logo"*/
+.img-logo{
+    height: 32px;
+    width: auto; /* por defecto quiero que se adapte */
+    display: block; /* Eliminar espacios entre los lados*/
+    object-fit: contain; /* ajusta la imagen, sin recortarse a los lados
+}    

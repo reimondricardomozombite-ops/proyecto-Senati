@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proyecto senati</title>
-    <link rel="shrtcut icon"href="Assets/icons/Senati-Symbol.ico" type="image/x-icon"
+    <link rel="shrtcut icon" href="Assets/icons/Senati-Symbol.ico" type="image/x-icon"
     <link rel="stylesheet" href="Assets/css /style/css"
 </head>
 <body>
     <header>
        <div class="lef-img">
-        <img src="Assets/images/logo-senati-visagrafica.png" alt="logo de Senati">
+        <img class="img-logo"  src="Assets/images/logo-senati-visagrafica.png" alt="logo de Senati">
        </div> 
         <div class="right-hamburguesa">
             <span></span>
@@ -19,32 +19,3 @@
        </div>
     </header>        
 </body>
-</html> 
-/* El selector universal*/
-/* 1. PRIMERO declaras la fuente - FUERA del selector * */
-@font-face {
-  font-family: "poppinslocal";
-  src: url("../fonts/Poppins/Poppins-regular .ttf") format("truetype");
-  font-weight: normal
-  font-style: normal
-  font-display: swap;
-} 
-
-/* 2. LUEGO aplicad a TODO con el selector universal */
-*{
- font-family: "poppinsLocal"; 
- margin: 0; /* En celular ponemos los margenes en 0 para asi poder editar a nuestro gusto*/
- padding:0; /* En celular ponemos los rellenos en 0 para asi poder editar a nuestro gusto*/
- box-sizing: border-box; /*El comportamiento por defecto de los navegadores*/
-
-}
-body{
-    background-color: #000000; /* color del fondo BLANCO*/
-
-}
-
-header{
-    background-color:#ffff; /*Color del fondo negro
-    height:55px;/* Altura de la barra de MENU*/
-    display:flex;
-}    
